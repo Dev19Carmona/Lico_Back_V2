@@ -20,6 +20,8 @@ const whiteListRequest = [
   "Company_save",
   "Companies",
   "User_register",
+  "Gender_save",
+  "Rol_save",
 ];
 
 export async function startApolloServer(typeDefs, resolvers) {
